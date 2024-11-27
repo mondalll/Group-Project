@@ -1,0 +1,122 @@
+body{
+    background-image:url(bg.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#navbar {
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(200px);
+    border: 2px solid skyblue;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#login_div{
+    margin-right: 60px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo:hover{
+    font-size: 40px;
+}
+.login:hover{
+    font-size: 19px;
+}
+#navbar:hover{
+    height: 48px;
+}
+
+#city{
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 200px;
+    height: 20px;
+}
+#city:focus {
+    background-color: black;
+    color: white;
+}
+#city:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+#outerdiv{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    /* border: 2px solid black; */
+}
+#dasbord{
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid rgba(135, 206, 235,0.2);
+    border-radius: 8px;
+    width: 700px;
+    margin-top: 250px;
+    backdrop-filter: blur(15px);
+    color: white;
+}
+#dasbord a{
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    /* margin-left: 110px; */
+}
+#dasbord p {
+    display: inline;
+    margin: 0px;
+}
+#dasbord h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.box{
+    width: 350px;
+    color: blue;
+    margin-bottom: 25px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    height: 40px;
+    color: white;
+}
+.box::placeholder{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+#innerdiv a{
+    margin-left: 110px;
+}
+#innerdiv2{
+    margin-bottom: 50px;
+}

@@ -1,0 +1,124 @@
+body{
+    background-image:url(image/bg.jpg);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+#navbar {
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255,0.2);
+    backdrop-filter: blur(200px);
+    border: 2px solid skyblue;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#login_div{
+    margin-right: 60px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo:hover{
+    font-size: 40px;
+}
+.login:hover{
+    font-size: 19px;
+}
+#navbar:hover{
+    height: 48px;
+}
+#city{
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 200px;
+    height: 20px;
+}
+#city:focus {
+    background-color: black;
+    color: white;
+}
+#city:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+/* Under the navber */
+
+
+#organisation{
+    height: 700px;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 20px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(219, 43, 219, 0.2);
+}
+#organisation h2{
+    text-align: center;
+    margin: 0px;
+}
+#organisation hr{
+    font-size: 1px;
+}
+
+#linestatus{
+    height: 700px;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 20px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(219, 43, 219, 0.2);
+}
+#linestatus h2{
+    text-align: center;
+    margin: 0px;
+}
+#linestatus hr{
+    font-size: 1px;
+}
+#leftdiv{
+    display: flex;
+
+}
+#tools{
+    height: 700px;
+    width: 1000px;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 20px;
+    backdrop-filter: blur(15px);
+    background-color: rgba(219, 43, 219, 0.2);
+}
+#tools h2{
+    text-align: center;
+    margin: 0px;
+}
+#tools hr{
+    font-size: 1px;
+}
